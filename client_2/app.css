@@ -1,0 +1,53 @@
+/* Reset some default browser styles */
+html, body, h1, form, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color, centered text, and padding */
+header {
+    background-color: #0078d4;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Center the main content and give it some padding */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the form inputs with some margin and padding */
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Style the predict button with a background color and white text */
+form button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the prediction result area */
+#predictionResult {
+    margin-top: 20px;
+}
